@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <hr>
+        <p><b>This text is bold</b></p>
+        <p><i>This text is italic</i></p>
+        <p>This is<sub>subscript</sub>and<sup>superscript</sup></p>
+        <hr>
+        <h2>List Bullet</h2>
+        <ul>
+            <li>Javascript</li>
+            <li>PHP</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Kotlin</li>
+        </ul>
+        <ul type="square">
+            <li>Javascript</li>
+            <li>PHP</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Kotlin</li>
+        </ul>
+        <ul type="disc">
+            <li>Javascript</li>
+            <li>PHP</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Kotlin</li>
+        </ul>
+        <ul type="circle">
+            <li>Javascript</li>
+            <li>PHP</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Kotlin</li>
+        </ul>
+        <ul type="none">
+            <li>Javascript</li>
+            <li>PHP</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Kotlin</li>
+        </ul>
+        <h2>List Number</h2>
+        <ol type="1">
+            <li>Jeruk</li>
+            <li>Durian</li>
+            <li>Pisang</li>
+            <li>Pepaya</li>
+            <li>Mangga</li>
+        </ol>
+        <ol type="a">
+            <li>Jeruk</li>
+            <li>Durian</li>
+            <li>Pisang</li>
+            <li>Pepaya</li>
+            <li>Mangga</li>
+        </ol>
+        <ol type="A">
+            <li>Jeruk</li>
+            <li>Durian</li>
+            <li>Pisang</li>
+            <li>Pepaya</li>
+            <li>Mangga</li>
+        </ol>
+        <ol type="i">
+            <li>Jeruk</li>
+            <li>Durian</li>
+            <li>Pisang</li>
+            <li>Pepaya</li>
+            <li>Mangga</li>
+        </ol>
+        <ol type="I">
+            <li>Jeruk</li>
+            <li>Durian</li>
+            <li>Pisang</li>
+            <li>Pepaya</li>
+            <li>Mangga</li>
+        </ol>
+        <ol type="I">
+            <li>Jeruk</li>
+            <ol type="A">
+                <li>Jeruk</li>
+                <li>Durian</li>
+                <li>Pisang</li>
+                <li>Pepaya</li>
+                <li>Mangga</li>
+            </ol>
+            <li>Durian</li>
+            <li>Pisang</li>
+            <li>Pepaya</li>
+            <li>Mangga</li>
+        </ol>
+        <hr>
+        <h2>Tabel</h2>
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Centro Comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+            </tr>
+         </table>
+         <hr>
+         <h2>Tabel Span</h2>
+         <table>
+            <tr>
+                <th>Asal</th>
+                <th>Domisi</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>Jakarta</center>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <th rowspan="2">Jakarta</th>
+                <td>- A -</td>
+                <td>- B -</td>
+            </tr>
+            <tr>
+                <td>- C -</td>
+                <td>- D -</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Image</h2>
+        <img src="imh/cat.png" alt="ini kucing">
+        <br>
+        <img src="tiger.svg" alt="ini macan" width="200" height="200"/>
+        <br>
+        <img src="https://www.balisafarimarinepark.com/wp-content/uploads/2023/08/mau3-1024x683.webp" alt="ini gambar dari web" width="200" height="auto"/>
+        <hr>
+        <h2>Link</h2>
+        <p>
+            <a href="https://www.google.com">Google</a>
+        </p>
+        <p>
+            <a href="https://www.yahoo.com" target="_blank">Yahoo</a>
+        </p>
+        <p>
+            <a href="satu.html">Halaman Satu</a>
+        </p>
+        <p>
+            <a href="/index.html" target="_blank">Halaman Index</a>
+        </p>
+        <p>
+            <a href="#aku">Klik untuk cari namaku!</a>
+        </p>
+        <h2 id="kau"> Andi </h2>
+        <h2 id="kau"> Andi </h2>
+        <h2 id="kau"> Andi </h2>
+        <h2 id="kau"> Andi </h2>
+        <h2 id="kau"> Andi </h2>
+        <h2 id="kau"> Andi </h2>
+        <h2 id="kau"> Andi </h2>
+        <h2 id="kau"> Andi </h2>
+        <h2 id="aku "> Budi </h2>
+        <hr>
+        <h2>Form</h2>
+        <form action="" method="post">
+            <label for="name">Nama:</label>
+            <input id="name" type="text">
+            <br>
+            <label for="password" method="post">Password:</label>
+            <input type="password" required>
+            <br>
+            <label for="checkbox">Centang:</label>
+            <input type="checkbox">
+            <br>
+            <label for="radio">Pilih:</label>
+            <input type="radio">
+            <br>
+            <label for="number">Nomor:</label>
+            <input type="number" min="1" max="10">
+            <br>
+            <label for="submit">Isi:</label>
+            <textarea cols="64" rows="8"></textarea>
+            <br>
+            <input type="submit" value="OK">
+        </form>
+        <hr>
+        <button type="button">OK</button>
+        <button type="button" onclick="doSomething();">Apply</button>
+        <hr>
+        <h2>Select Forms</h2>
+        <p>Apa warna favoritmu?</p>
+        <select>
+            <option>Merah</option>
+            <option>Kuning</option>
+            <option>Hijau</option>
+            <option>Biru</option>
+        </select>
+        <p>Apa makanan favoritmu?</p>
+        <select>
+            <option>Papeda</option>
+            <option>Soto Kwali</option>
+            <option>Sate Padang</option>
+            <option>Gudeg</option>
+        </select>
+        <hr>
+        <h2>Option Groups</h2>
+        <p>Minuman Favoritmu?</p>
+        <select>
+            <optgroup label="Jus Buah">
+                <option>Jus Apel</option>
+                <option>Jus Jeruk</option>
+                <option>Jus Mangga</option>
+            </optgroup>
+            <optgroup label="Jamu">
+                <option>Kencur</option>
+                <option>Asem</option>
+                <option>Brotowali</option>
+            </optgroup>            
+        </select>
+        <hr>
+        <h2>Radio Button</h2>
+        <input type="radio" id="html" name="fav_language" value="html">
+        <label for="html">HTML</label><br>
+        <input type="radio" name="fav_language" id="css" value="css">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <!-- magic number jika opsi lebih dari 5 gunakan select-->
+        <hr>
+        <h2>Field Sets & Legends</h2>
+        <fieldset>
+            <legend>Data Diri</legend>
+            <p>
+                <label for="nama">Nama:</label>
+                <input type="text" name="nama">
+            </p>
+            <p>
+                <label for="usia">Usia:</label>
+                <input type="number" name="usia">
+            </p>
+        </fieldset>
+        <hr>
+        <h2>Perbedaan Semantic</h2>
+        <b>ini tulisan bold</b><br>
+        <strong>ini tulisan bold juga</strong><br>
+        <i>ini tulisan italic</i><br>
+        <em>ini juga tulisan italic</em>
+        <hr>
+        <h2>Division Tag</h2>
+        <div>Division 1</div>
+        <div>Division 2</div>
+        <div>Division 3</div>
+        <span>Span 1</span>
+        <span>Span 2</span>
+        <span>Span 3</span>
+        <hr>
+        <h2>Main, Headers and Footers</h2>
+        <article>
+            <header>
+                <h1>Header Artikel</h1>
+                <p>Selamat datang</p>
+            </header>
+            <main>
+                <p>ini konten utama</p>
+            </main>
+            <footer>
+                <p>Bye!</p>
+            </footer>
+        </article>
+        <hr>
+        <article>
+            <section class="header">
+                <h1>Header Artikel</h1>
+                <p>Selamat datang!</p>
+            </section>
+            <section class="main">
+                <p>Ini konten utama.</p>
+            </section>
+            <section class="footer">
+                <p>Bye</p>
+            </section>
+        </article>
+        <hr>
+    </body>
+</html>
